@@ -1,7 +1,7 @@
 # 📝 google-survey-form
 Form 관련 태그 학습을 위해 클론한 구글 설문 폼.
 아래의 preview 이미지를 따라 만들었다.
-![preview](https://i.imgur.com/Oh2u02k.png)
+<center width="100px">![preview](https://i.imgur.com/Oh2u02k.png)</center>
 
 [🔗웹에서 확인하기](https://yeodahui.github.io/google-form/)
 
