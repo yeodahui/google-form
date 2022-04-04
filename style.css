@@ -104,3 +104,28 @@ input {
 .text-input {
   padding: 10px 0;
 }
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button.submit {
+  width: 70px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #673ab7;
+  color: white;
+}
+
+button.reset {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  color: #673ab7;
+}
+
+button.reset:hover {
+  text-decoration: underline;
+}
