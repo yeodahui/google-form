@@ -12,7 +12,7 @@ Form 관련 태그 학습을 위해 클론한 구글 설문 폼.
 2. 학습차 reset.css를 import하지 않고 스타일 시트를 작성하려 하니 의도치 않은 margin과 padding때문에 적절한 여백을 주는 것이 어려웠다.
 
 ### 새로 배운 점
-1. 계정 전환 탭에서 아이콘을 svg나 png로 넣으려 했는데, 구글에서 Material Icons를 제공한다는 것을 알게 되었다. span 태그에 class를 주는 것 만으로 icon을 뚝딱 만들어준다. [🔗Material Icons Guide](https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web)
+1. 계정 전환 탭에서 아이콘을 svg나 png로 넣으려 했는데, 구글에서 Material Icons를 제공한다는 것을 알게 되었다. span 태그에 class를 주는 것 만으로 icon을 뚝딱 만들어준다. [🔗Material Icons Guide] (https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web)
   ```html
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
