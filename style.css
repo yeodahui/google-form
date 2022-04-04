@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "MinSans-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "MinSans-Medium", sans-serif;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  background-color: #efebf9;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.i-title {
+  font-size: small;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 650px;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #673ab7;
+  border-radius: 10px;
+}
+
+.heading {
+  border-top: 10px solid #673ab7;
+  padding: 15px 20px 0 20px;
+}
+
+.description-form {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.account {
+  padding: 20px;
+}
+
+.question {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.question-title {
+  margin-bottom: 20px;
+}
+
+.checkbox-o-radio-options {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.checkbox-o-radio-options li {
+  margin-bottom: 15px;
+}
+
+.select {
+  width: 200px;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.text-input {
+  padding: 10px 0;
+}
