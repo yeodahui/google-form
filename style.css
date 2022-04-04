@@ -71,6 +71,19 @@ input {
 
 .account {
   padding: 20px;
+  color: #888;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.my-email {
+  padding-left: 5px;
+}
+
+.change_account {
+  text-decoration: none;
+  color: #0071f1;
 }
 
 .question {
