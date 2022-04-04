@@ -7,5 +7,105 @@
     <link rel="stylesheet" href="style.css" />
     <title>설문: 나와 잘 맞는 회사는?</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header box">
+      <h1 class="heading">나와 잘 맞는 회사는?</h1>
+      <p class="description-form">가고 싶은 회사에 대한 호감도를 조사합니다.</p>
+      <p class="account">yeodahui.dev@gmail.com</p>
+    </header>
+    <form class="box" action="" method="post">
+      <div class="question">
+        <p class="question-title">
+          다음 문자 중에 왠지 마음에 드는 것을 하나 고르세요.
+        </p>
+        <ul class="checkbox-o-radio-options">
+          <li>
+            <input type="radio" name="favorite" id="naver" />
+            <label for="naver">네</label>
+          </li>
+          <li>
+            <input type="radio" name="favorite" id="kakao" />
+            <label for="kakao">카</label>
+          </li>
+          <li>
+            <input type="radio" name="favorite" id="라" />
+            <label for="라">라</label>
+          </li>
+          <li>
+            <input type="radio" name="favorite" id="coupang" />
+            <label for="coupang">쿠</label>
+          </li>
+          <li>
+            <input type="radio" name="favorite" id="jecobe" />
+            <label for="jecobe">베</label>
+          </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p class="question-title">
+          친구와 문자를 합니다. 다음 중 어떤 메신저를 이용하시겠습니까? 모두
+          골라주세요.
+        </p>
+        <ul class="checkbox-o-radio-options">
+          <li>
+            <input type="checkbox" name="messenger" id="kakaotalk" />
+            <label for="kakaotalk">카카오톡</label>
+          </li>
+          <li>
+            <input type="checkbox" name="messenger" id="line" />
+            <label for="line">라인</label>
+          </li>
+          <li>
+            <input type="checkbox" name="messenger" id="insta" />
+            <label for="insta">인스타그램 디엠</label>
+          </li>
+          <li>
+            <input type="checkbox" name="messenger" id="nateon" />
+            <label for="nateon">네이트온</label>
+          </li>
+          <li>
+            <input type="checkbox" name="messenger" id="buddy" />
+            <label for="buddy">버디버디</label>
+          </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p class="question-title">
+          면접에서 자신의 포부를 한 문장으로 얘기한다면?
+        </p>
+        <label for="poboo" class="hidden">포부</label>
+        <input class="text-input" type="text" id="poboo" placeholder="내 답변" />
+      </div>
+      <div class="question">
+        <p class="question-title">
+          당신은 지금 한 기업의 최종면접을 앞두고 있습니다. 면접장에 들어가기
+          직전, 자기 자신에게 해 주고싶은 말은?
+        </p>
+        <label for="mindset" class="hidden">자기 자신에게 해 주고 싶은 말</label>
+        <input class="text-input block" type="text" id="mindset" name="mindset" placeholder="내 답변" />
+      </div>
+      <div class="question">
+        <p class="question-title">
+          다음 중 기술 면접때 듣고 싶은 질문이 아닌 것은?
+        </p>
+        <label for="tech-interview" class="hidden">듣기 싫은 기술면접 질문</label>
+        <select class="select" name="tech-interview" id="tech-interview" />
+          <option value="">선택</option>
+          <option value="javascript">Javascript 관련</option>
+          <option value="htmlcss">HTML/CSS 관련</option>
+          <option value="computerscience">컴퓨터 과학 관련</option>
+        </select>
+      </div>
+      <div class="question">
+        <p class="question-title">취업을 희망하는 날짜를 선택해주세요.</p>
+        <label class="block i-title" for="date">날짜</label>
+        <input id="date" type="date" />
+      </div>
+      <div class="question">
+        <p class="question-title">업무를 시작하기에 가장 적당한 시간을 고르세요.</p>
+        <label for="time" class="block i-title">시간</label>
+        <input type="time" id="time"/>
+      </div>
+    </form>
+  </body>
 </html>
