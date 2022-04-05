@@ -26,7 +26,7 @@
         </p>
         <ul class="checkbox-o-radio-options">
           <li>
-            <input type="radio" name="favorite" id="naver" />
+            <input type="radio" required name="favorite" id="naver" />
             <label for="naver">네</label>
           </li>
           <li>
@@ -80,7 +80,7 @@
           면접에서 자신의 포부를 한 문장으로 얘기한다면?
         </p>
         <label for="poboo" class="hidden">포부</label>
-        <input class="text-input" type="text" id="poboo" placeholder="내 답변" />
+        <input class="text-input" required type="text" id="poboo" placeholder="내 답변" />
       </div>
       <div class="question">
         <p class="question-title">
@@ -88,7 +88,7 @@
           직전, 자기 자신에게 해 주고싶은 말은?
         </p>
         <label for="mindset" class="hidden">자기 자신에게 해 주고 싶은 말</label>
-        <input class="text-input block" type="text" id="mindset" name="mindset" placeholder="내 답변" />
+        <input class="text-input block" required type="text" id="mindset" name="mindset" placeholder="내 답변" />
       </div>
       <div class="question">
         <p class="question-title">
@@ -104,13 +104,13 @@
       </div>
       <div class="question">
         <p class="question-title">취업을 희망하는 날짜를 선택해주세요.</p>
-        <label class="block i-title" for="date">날짜</label>
+        <label class="block i-title" required for="date">날짜</label>
         <input id="date" type="date" />
       </div>
       <div class="question">
         <p class="question-title">업무를 시작하기에 가장 적당한 시간을 고르세요.</p>
         <label for="time" class="block i-title">시간</label>
-        <input type="time" id="time"/>
+        <input type="time" required id="time"/>
       </div>
       <div class="form-footer">
         <button class="submit" type="submit">제출</button>
